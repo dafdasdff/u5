@@ -1,0 +1,8 @@
+if __name__ == "__main__":
+    argvs = sys.argv
+    # 获取传递进来的参数
+    category = argvs[1]
+    # category = 'liyue'
+    url = "https://ys.mihoyo.com/main/character/{}?char=0".format(category)
+    print(url)
+    run(url)
